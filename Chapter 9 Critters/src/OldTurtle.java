@@ -9,7 +9,7 @@ public class OldTurtle implements Critter {
 
 	@Override
 	public char getChar() {
-		// TODO Auto-generated method stub
+		//returns 'O' when getChar() method is called
 		return 'O';
 	}
 

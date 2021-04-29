@@ -7,13 +7,13 @@ public class Turtle implements Critter {
 
 	@Override
 	public char getChar() {
-		// TODO Auto-generated method stub
+		//returns 'T' when getChar() method is called
 		return 'T';
 	}
 
 	@Override
 	public int getMove(CritterInfo info) {
-		// TODO Auto-generated method stub
+		//Makes turtle move 5 spaces in each direction counterclockwise
 
 		int step = count % 20;
 

@@ -5,13 +5,13 @@ public class Bird implements Critter {
 
 	@Override
 	public char getChar() {
-		// TODO Auto-generated method stub
+		//returns 'B' when getChar( method) is called
 		return 'B';
 	}
 
 	@Override
 	public int getMove(CritterInfo info) {
-		// TODO Auto-generated method stub
+		//Bird picks a random direction to move towards
 
 		int direction = (int) (Math.random() * 4) + 1;
 

@@ -7,13 +7,13 @@ public class Frog implements Critter {
 
 	@Override
 	public char getChar() {
-		// TODO Auto-generated method stub
+		//returns 'F' when getChar() method is called
 		return 'F';
 	}
 
 	@Override
 	public int getMove(CritterInfo info) {
-		// TODO Auto-generated method stub
+		//Makes frog means in a random direction 3 spaces
 
 		if (count == 0 || count == 3) {
 			direction = (int) (Math.random() * 4 + 1);
